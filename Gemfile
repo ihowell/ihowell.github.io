@@ -25,4 +25,5 @@ gem "kramdown-parser-gfm"
 
 group :jekyll_plugins do
   gem "jekyll-pdf-embed"
+  gem "jekyll-scholar"
 end

@@ -1,0 +1,42 @@
+# Publication data
+# This list should stay in reverse chronological order
+
+-
+  name:
+    title: Safe Online Exploration with Nonlinear Constraints
+    url: /assets/pdf/quint2021safe.pdf
+  authors: Eleanor Quint, Ian S. Howell, Garrett Wirka, Steven Scott, and Hoang-Dung Tran
+  venue:
+    title: Workshop on Safe and Robust Control at NeurIPS 2021
+    url: https://sites.google.com/view/safe-robust-control/home
+  date: 2021-12-13
+-
+  name:
+    title: Visualizations to Summarize Search Behavior
+    url: /assets/pdf/howell2020visualizations.pdf
+  authors: Ian S. Howell, Berthe Y. Choueiry, and Hongfeng Yu
+  venue:
+    title: CP 2020
+    url: https://cp2020.a4cp.org/acceptedpapers.html
+  date: 2020-9-7
+  slides:
+    pptx: /assets/pptx/howell2020visualizations_slides.pptx
+    pdf: /assets/pdf/howell2020visualizations_slides.pdf
+-
+  name:
+    title: "Solving Sudoku with Consistency: A Visual and Interactive Approach"
+    url: /assets/pdf/howell2018solving.pdf
+  authors: Ian S. Howell, Robert J. Woodward, Berthe Y. Choueiry, and Christian Bessiere
+  venue:
+    title: IJCAI 2018 Demonstration Track
+    url: https://www.ijcai-18.org/demos/index.html
+  date: 2018-7-13
+-
+  name:
+    title: "A Qualitative Analysis of Search Behavior: A Visual Approach"
+    url: /assets/pdf/howell2018qualitative.pdf
+  authors: Ian S. Howell, Robert J. Woodward, Berthe Y. Choueiry, and Hongfeng Yu
+  venue:
+    title: IJCAI/ECAI 2018 Workshop on Explainable Artificial Intelligence (XAI)
+    url: https://www.ijcai-18.org/workshops/index.html
+  date: 2018-7-13

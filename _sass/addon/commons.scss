@@ -1034,6 +1034,11 @@ $sidebar-display: "sidebar-display";
       @extend %no-bottom-border;
     }
   }
+  #publications {
+    a:not(:hover) {
+      @extend %no-bottom-border;
+    }
+  }
 }
 
 #mask {

@@ -1,0 +1,67 @@
+---
+layout: page
+# Publications
+---
+
+{% include lang.html %}
+
+<div id="publications" class="pl-xl-2">
+
+     {% assign pre_year = "" %}
+    {% for post in site.data.publications %}
+      {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+      {% if forloop.first %}
+        {% assign last_day = "" %}
+        {% assign last_month = "" %}
+        <div class="lead">{{this_year}}</div>
+        <ul class="list-unstyled">
+      {% elsif this_year != pre_year %}
+        {% assign last_day = "" %}
+        {% assign last_month = "" %}
+        </ul>
+        <div class="lead">{{this_year}}</div>
+        <ul class="list-unstyled">
+      {% endif %}
+
+            {% capture this_day %}{{ post.date | date: "%d" }}{% endcapture %}
+            {% capture _mth_df %}{{ site.data.locales[lang].date_format.post.archive_month }}{% endcapture %}
+            {% capture this_month %}{{ post.date | date: _mth_df }}{% endcapture %}
+            {% if post.slides %}
+            <li class="slides">
+            {% else %}
+            <li>
+            {% endif %}
+                <div class="publication">
+                    <div>
+                        <span>
+                            <span class="date day">{{ this_day }}</span>
+                            <span class="date month small text-muted">{% include no-zero-date.html date_str=this_month %}</span>
+                        </span>
+                    </div>
+                    <div>
+                        <a class="title" href="{{ post.name.url }}">{{ post.name.title }}</a>
+                        <br />
+                        <a class="small text-muted" href="{{ post.venue.url }}">{{ post.venue.title }}</a>
+                        {% if post.slides %}
+                        <br />
+                        <span class="small text-muted">Slides:</span>
+                        {% if post.slides.pptx %}
+                        <a class="small" href="{{ post.slides.pptx }}">PPTX</a>
+                        {% if post.slides.pdf %}
+                        ,
+                        {% endif %}
+                        {% endif %}
+
+                        {% if post.slides.pdf %}
+                        <a class="small" href="{{ post.slides.pdf }}">PDF</a>
+                        {% endif %}
+                        {% endif %}
+                    </div>
+                </div>
+            </li>
+      {% if forloop.last %}
+        </ul>
+      {% endif %}
+      {% capture pre_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% endfor %}
+</div>

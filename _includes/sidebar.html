@@ -74,6 +74,8 @@
           javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
         {%- elsif entry.type == 'rss' -%}
           {{ "/feed.xml" | relative_url }}
+        {%- elsif entry.type == 'scholar' -%}
+          https://scholar.google.com/citations?user={{ site.g-scholar.username }}
         {%- else -%}
           {{ entry.url }}
         {%- endif -%}

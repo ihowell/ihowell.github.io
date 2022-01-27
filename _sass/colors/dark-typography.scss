@@ -124,7 +124,7 @@
     }
   }
 
-  #archives li:nth-child(odd) {
+  #archives li:nth-child(odd), #publications li:nth-child(odd) {
     background-image:
       linear-gradient(
         to left,

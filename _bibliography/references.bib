@@ -1,0 +1,382 @@
+@article{simonyan2013deep,
+author = {Simonyan, Karen and Vedaldi, Andrea and Zisserman, Andrew},
+journal = {arXiv preprint arXiv:1312.6034},
+title = {{Deep inside convolutional networks: Visualising image classification models and saliency maps}},
+year = {2013}
+}
+@inproceedings{chen2019looks,
+abstract = {When we are faced with challenging image classification tasks, we often explain our reasoning by dissecting the image, and pointing out prototypical aspects of one class or another. The mounting evidence for each of the classes helps us make our final decision. In this work, we introduce a deep network architecture - prototypical part network (ProtoPNet), that reasons in a similar way: the network dissects the image by finding prototypical parts, and combines evidence from the prototypes to make a final classification. The model thus reasons in a way that is qualitatively similar to the way ornithologists, physicians, and others would explain to people on how to solve challenging image classification tasks. The network uses only image-level labels for training without any annotations for parts of images. We demonstrate our method on the CUB-200-2011 dataset and the Stanford Cars dataset. Our experiments show that ProtoPNet can achieve comparable accuracy with its analogous non-interpretable counterpart, and when several ProtoPNets are combined into a larger network, it can achieve an accuracy that is on par with some of the best-performing deep models. Moreover, ProtoPNet provides a level of interpretability that is absent in other interpretable deep models.},
+archivePrefix = {arXiv},
+arxivId = {1806.10574},
+author = {Chen, Chaofan and Li, Oscar and Tao, Chaofan and Barnett, Alina Jade and Su, Jonathan and Rudin, Cynthia},
+booktitle = {Advances in Neural Information Processing Systems},
+eprint = {1806.10574},
+issn = {10495258},
+publisher = {Neural information processing systems foundation},
+title = {{This looks like that: Deep learning for interpretable image recognition}},
+volume = {32},
+year = {2019}
+}
+@inproceedings{adebayo2018sanity,
+abstract = {Saliency methods have emerged as a popular tool to highlight features in an input deemed relevant for the prediction of a learned model. Several saliency methods have been proposed, often guided by visual appeal on image data. In this work, we propose an actionable methodology to evaluate what kinds of explanations a given method can and cannot provide. We find that reliance, solely, on visual assessment can be misleading. Through extensive experiments we show that some existing saliency methods are independent both of the model and of the data generating process. Consequently, methods that fail the proposed tests are inadequate for tasks that are sensitive to either data or model, such as, finding outliers in the data, explaining the relationship between inputs and outputs that the model learned, and debugging the model. We interpret our findings through an analogy with edge detection in images, a technique that requires neither training data nor model. Theory in the case of a linear model and a single-layer convolutional neural network supports our experimental findings2},
+archivePrefix = {arXiv},
+arxivId = {1810.03292},
+author = {Adebayo, Julius and Gilmer, Justin and Muelly, Michael and Goodfellow, Ian and Hardt, Moritz and Kim, Been},
+booktitle = {Advances in Neural Information Processing Systems},
+eprint = {1810.03292},
+issn = {10495258},
+pages = {9505--9515},
+publisher = {Neural information processing systems foundation},
+title = {{Sanity checks for saliency maps}},
+volume = {2018-Decem},
+year = {2018}
+}
+@inproceedings{Goyal2019,
+abstract = {In this work, we develop a technique to produce counterfactual visual explanations. Given a 'query' image I for which a vision system predicts class c, a counterfactual visual explanation identifies how I could change such that the system would output a different specified class c'. To do this, we select a 'distractor' image I' that the system predicts as class c' and identify spatial regions in I and I' such that replacing the identified region in I with the identified region in I' would push the system towards classifying I as d. We apply our approach to multiple image classification datasets generating qualitative results showcasing the interpretability and discriminativeness of our counterfactual explanations. To explore the effectiveness of our explanations in teaching humans, we present machine teaching experiments for the task of fine-grained bird classification. We find that users trained to distinguish bird species fare better when given access to counterfactual explanations in addition to training examples.},
+archivePrefix = {arXiv},
+arxivId = {1904.07451},
+author = {Goyal, Yash and Wu, Ziyan and Ernst, Jan and Batra, Dhruv and Parikh, Devi and Lee, Stefan},
+booktitle = {36th International Conference on Machine Learning, ICML 2019},
+eprint = {1904.07451},
+isbn = {9781510886988},
+pages = {4254--4262},
+publisher = {International Machine Learning Society (IMLS)},
+title = {{Counterfactual visual explanations}},
+volume = {2019-June},
+year = {2019}
+}
+@misc{kurakin2016adversarial,
+author = {Kurakin, Alexey and Goodfellow, Ian and Bengio, Samy and Others},
+title = {{Adversarial examples in the physical world}},
+year = {2016}
+}
+@inproceedings{pang2018towards,
+author = {Pang, Tianyu and Du, Chao and Dong, Yinpeng and Zhu, Jun},
+booktitle = {Advances in Neural Information Processing Systems},
+editor = {Bengio, S and Wallach, H and Larochelle, H and Grauman, K and Cesa-Bianchi, N and Garnett, R},
+publisher = {Curran Associates, Inc.},
+title = {{Towards Robust Detection of Adversarial Examples}},
+url = {https://proceedings.neurips.cc/paper/2018/file/e0f7a4d0ef9b84b83b693bbf3feb8e6e-Paper.pdf},
+volume = {31},
+year = {2018}
+}
+@article{goyal2019counterfactual,
+author = {Goyal, Yash and Wu, Ziyan and Ernst, Jan and Batra, Dhruv and Parikh, Devi and Lee, Stefan},
+journal = {arXiv preprint arXiv:1904.07451},
+title = {{Counterfactual visual explanations}},
+url = {http://proceedings.mlr.press/v97/goyal19a.html},
+year = {2019}
+}
+@inproceedings{kim2016examples,
+author = {Kim, Been and Khanna, Rajiv and Koyejo, Oluwasanmi O},
+booktitle = {Advances in Neural Information Processing Systems},
+editor = {Lee, D and Sugiyama, M and Luxburg, U and Guyon, I and Garnett, R},
+pages = {2280--2288},
+publisher = {Curran Associates, Inc.},
+title = {{Examples are not enough, learn to criticize! Criticism for Interpretability}},
+url = {https://proceedings.neurips.cc/paper/2016/file/5680522b8e2bb01943234bce7bf84534-Paper.pdf},
+volume = {29},
+year = {2016}
+}
+@article{bouchacourt2019educe,
+author = {Bouchacourt, Diane and Denoyer, Ludovic},
+journal = {arXiv preprint arXiv:1905.11852},
+title = {{Educe: Explaining model decisions through unsupervised concepts extraction}},
+year = {2019}
+}
+@article{joshi2018xgems,
+author = {Joshi, Shalmali and Koyejo, Oluwasanmi and Kim, Been and Ghosh, Joydeep},
+journal = {arXiv preprint arXiv:1806.08867},
+title = {{xGEMs: Generating examplars to explain black-box models}},
+year = {2018}
+}
+@article{vaughan2020human,
+author = {Vaughan, Jennifer Wortman and Wallach, Hanna},
+title = {{A human-centered agenda for intelligible machine learning}}
+}
+@misc{szegedy2014intriguing,
+archivePrefix = {arXiv},
+arxivId = {cs.CV/1312.6199},
+author = {Szegedy, Christian and Zaremba, Wojciech and Sutskever, Ilya and Bruna, Joan and Erhan, Dumitru and Goodfellow, Ian and Fergus, Rob},
+eprint = {1312.6199},
+primaryClass = {cs.CV},
+title = {{Intriguing properties of neural networks}},
+year = {2014}
+}
+@inproceedings{selvaraju2017grad,
+author = {Selvaraju, Ramprasaath R and Cogswell, Michael and Das, Abhishek and Vedantam, Ramakrishna and Parikh, Devi and Batra, Dhruv},
+booktitle = {Proceedings of the IEEE international conference on computer vision},
+pages = {618--626},
+title = {{Grad-cam: Visual explanations from deep networks via gradient-based localization}},
+year = {2017}
+}
+@article{montavon2018methods,
+author = {Montavon, Gr{\'{e}}goire and Samek, Wojciech and M{\"{u}}ller, Klaus-Robert},
+journal = {Digital Signal Processing},
+pages = {1--15},
+publisher = {Elsevier},
+title = {{Methods for interpreting and understanding deep neural networks}},
+volume = {73},
+year = {2018}
+}
+@article{singh2021directive,
+author = {Singh, Ronal and Dourish, P and Howe, Piers D L and Miller, Tim and Sonenberg, L and Velloso, Eduardo and Vetere, F},
+journal = {ArXiv},
+title = {{Directive Explanations for Actionable Explainability in Machine Learning Applications}},
+volume = {abs/2102.0},
+year = {2021}
+}
+@article{smilkov2017smoothgrad,
+author = {Smilkov, Daniel and Thorat, Nikhil and Kim, Been and Vi{\'{e}}gas, Fernanda and Wattenberg, Martin},
+journal = {arXiv preprint arXiv:1706.03825},
+title = {{Smoothgrad: removing noise by adding noise}},
+year = {2017}
+}
+@misc{xiao2020vaebm,
+archivePrefix = {arXiv},
+arxivId = {cs.LG/2010.00654},
+author = {Xiao, Zhisheng and Kreis, Karsten and Kautz, Jan and Vahdat, Arash},
+eprint = {2010.00654},
+primaryClass = {cs.LG},
+title = {{VAEBM: A Symbiosis between Variational Autoencoders and Energy-based Models}},
+year = {2020}
+}
+@article{barocas2020hidden,
+author = {Barocas, Solon and Selbst, Andrew D and Raghavan, Manish},
+isbn = {9781450369367},
+journal = {Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency},
+month = {jan},
+publisher = {ACM},
+title = {{The hidden assumptions behind counterfactual explanations and principal reasons}},
+year = {2020}
+}
+@inproceedings{poyiadzi2020face,
+author = {Poyiadzi, Rafael and Sokol, Kacper and Santos-Rodriguez, Raul and {De Bie}, Tijl and Flach, Peter},
+booktitle = {Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society},
+pages = {344--350},
+title = {{FACE: Feasible and actionable counterfactual explanations}},
+year = {2020}
+}
+@inproceedings{adebayo2018sanity,
+author = {Adebayo, Julius and Gilmer, Justin and Muelly, Michael and Goodfellow, Ian and Hardt, Moritz and Kim, Been},
+booktitle = {Advances in Neural Information Processing Systems},
+pages = {9505--9515},
+title = {{Sanity checks for saliency maps}},
+year = {2018}
+}
+@article{liang2017enhancing,
+author = {Liang, Shiyu and Li, Yixuan and Srikant, Rayadurgam},
+journal = {arXiv preprint arXiv:1706.02690},
+title = {{Enhancing the reliability of out-of-distribution image detection in neural networks}},
+year = {2017}
+}
+@inproceedings{mothilal2020explaining,
+author = {Mothilal, Ramaravind K and Sharma, Amit and Tan, Chenhao},
+booktitle = {Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency},
+pages = {607--617},
+title = {{Explaining machine learning classifiers through diverse counterfactual explanations}},
+year = {2020}
+}
+@inproceedings{kaur2020interpreting,
+author = {Kaur, Harmanpreet and Nori, Harsha and Jenkins, Samuel and Caruana, Rich and Wallach, Hanna and {Wortman Vaughan}, Jennifer},
+booktitle = {Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems},
+pages = {1--14},
+title = {{Interpreting Interpretability: Understanding Data Scientists' Use of Interpretability Tools for Machine Learning}},
+year = {2020}
+}
+@inproceedings{gal2016dropout,
+address = {New York, New York, USA},
+author = {Gal, Yarin and Ghahramani, Zoubin},
+booktitle = {Proceedings of The 33rd International Conference on Machine Learning},
+editor = {Balcan, Maria Florina and Weinberger, Kilian Q},
+pages = {1050--1059},
+publisher = {PMLR},
+series = {Proceedings of Machine Learning Research},
+title = {{Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning}},
+volume = {48},
+year = {2016}
+}
+@misc{feinman2017detecting,
+archivePrefix = {arXiv},
+arxivId = {stat.ML/1703.00410},
+author = {Feinman, Reuben and Curtin, Ryan R and Shintre, Saurabh and Gardner, Andrew B},
+eprint = {1703.00410},
+primaryClass = {stat.ML},
+title = {{Detecting Adversarial Samples from Artifacts}},
+year = {2017}
+}
+@article{lombrozo2006structure,
+author = {Lombrozo, Tania},
+journal = {Trends in Cognitive Sciences},
+pages = {464--470},
+title = {{The structure and function of explanations}},
+year = {2006}
+}
+@article{goodfellow2014explaining,
+author = {Goodfellow, Ian J and Shlens, Jonathon and Szegedy, Christian},
+journal = {arXiv preprint arXiv:1412.6572},
+title = {{Explaining and harnessing adversarial examples}},
+year = {2014}
+}
+@inproceedings{carlini2017towards,
+author = {Carlini, Nicholas and Wagner, David},
+booktitle = {2017 IEEE Symposium on Security and Privacy (SP)},
+doi = {10.1109/SP.2017.49},
+pages = {39--57},
+title = {{Towards Evaluating the Robustness of Neural Networks}},
+year = {2017}
+}
+@misc{wiyatno2018maximal,
+archivePrefix = {arXiv},
+arxivId = {cs.LG/1808.07945},
+author = {Wiyatno, Rey and Xu, Anqi},
+eprint = {1808.07945},
+primaryClass = {cs.LG},
+title = {{Maximal Jacobian-based Saliency Map Attack}},
+year = {2018}
+}
+@article{miller2018explanation,
+author = {Miller, Tim},
+journal = {Artificial Intelligence},
+pages = {1--38},
+title = {{Explanation in artificial intelligence: Insights from the social sciences}},
+volume = {267},
+year = {2019}
+}
+@misc{ribeiro2016why,
+archivePrefix = {arXiv},
+arxivId = {cs.LG/1602.04938},
+author = {Ribeiro, Marco Tulio and Singh, Sameer and Guestrin, Carlos},
+eprint = {1602.04938},
+primaryClass = {cs.LG},
+title = {{"Why Should I Trust You?": Explaining the Predictions of Any Classifier}},
+year = {2016}
+}
+@inproceedings{nguyen2016synthesizing,
+author = {Nguyen, Anh and Dosovitskiy, Alexey and Yosinski, Jason and Brox, Thomas and Clune, Jeff},
+booktitle = {Advances in Neural Information Processing Systems},
+editor = {Lee, D and Sugiyama, M and Luxburg, U and Guyon, I and Garnett, R},
+publisher = {Curran Associates, Inc.},
+title = {{Synthesizing the preferred inputs for neurons in neural networks via deep generator networks}},
+url = {https://proceedings.neurips.cc/paper/2016/file/5d79099fcdf499f12b79770834c0164a-Paper.pdf},
+volume = {29},
+year = {2016}
+}
+@inproceedings{lash2017generalized,
+author = {Lash, Michael T and Lin, Qihang and Street, Nick and Robinson, Jennifer G and Ohlmann, Jeffrey},
+booktitle = {Proceedings of the 2017 SIAM International Conference on Data Mining},
+organization = {SIAM},
+pages = {162--170},
+title = {{Generalized inverse classification}},
+year = {2017}
+}
+@inproceedings{feghahati2020cdeepex,
+author = {Feghahati, Amir and Shelton, Christian R and Pazzani, Michael J and Tang, Kevin},
+booktitle = {ECAI 2020},
+pages = {1143--1151},
+publisher = {IOS Press},
+title = {{CDeepEx: Contrastive Deep Explanations}},
+year = {2020}
+}
+@misc{grosse2017statistical,
+archivePrefix = {arXiv},
+arxivId = {cs.CR/1702.06280},
+author = {Grosse, Kathrin and Manoharan, Praveen and Papernot, Nicolas and Backes, Michael and McDaniel, Patrick},
+eprint = {1702.06280},
+primaryClass = {cs.CR},
+title = {{On the (Statistical) Detection of Adversarial Examples}},
+year = {2017}
+}
+@misc{kim2018interpretability,
+archivePrefix = {arXiv},
+arxivId = {stat.ML/1711.11279},
+author = {Kim, Been and Wattenberg, Martin and Gilmer, Justin and Cai, Carrie and Wexler, James and Viegas, Fernanda and Sayres, Rory},
+eprint = {1711.11279},
+primaryClass = {stat.ML},
+title = {{Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV)}},
+year = {2018}
+}
+@inproceedings{lee2018simple,
+author = {Lee, Kimin and Lee, Kibok and Lee, Honglak and Shin, Jinwoo},
+booktitle = {Advances in Neural Information Processing Systems},
+editor = {Bengio, S and Wallach, H and Larochelle, H and Grauman, K and Cesa-Bianchi, N and Garnett, R},
+publisher = {Curran Associates, Inc.},
+title = {{A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks}},
+url = {https://proceedings.neurips.cc/paper/2018/file/abdeb6f575ac5c6676b747bca8d09cc2-Paper.pdf},
+volume = {31},
+year = {2018}
+}
+@inproceedings{melis2018towards,
+author = {{Alvarez Melis}, David and Jaakkola, Tommi},
+booktitle = {Advances in Neural Information Processing Systems},
+editor = {Bengio, S and Wallach, H and Larochelle, H and Grauman, K and Cesa-Bianchi, N and Garnett, R},
+pages = {7775--7784},
+publisher = {Curran Associates, Inc.},
+title = {{Towards Robust Interpretability with Self-Explaining Neural Networks}},
+url = {https://proceedings.neurips.cc/paper/2018/file/3e9f0fc9b2f89e043bc6233994dfcf76-Paper.pdf},
+volume = {31},
+year = {2018}
+}
+@book{goodfellow2016deep,
+author = {Goodfellow, Ian and Bengio, Yoshua and Courville, Aaron and Bengio, Yoshua},
+publisher = {MIT Press},
+title = {{Deep learning}},
+volume = {1},
+year = {2016}
+}
+@article{olah2017feature,
+annote = {https://distill.pub/2017/feature-visualization},
+author = {Olah, Chris and Mordvintsev, Alexander and Schubert, Ludwig},
+doi = {10.23915/distill.00007},
+journal = {Distill},
+title = {{Feature Visualization}},
+year = {2017}
+}
+@misc{ghorbani2019automatic,
+archivePrefix = {arXiv},
+arxivId = {stat.ML/1902.03129},
+author = {Ghorbani, Amirata and Wexler, James and Zou, James and Kim, Been},
+eprint = {1902.03129},
+primaryClass = {stat.ML},
+title = {{Towards Automatic Concept-based Explanations}},
+year = {2019}
+}
+@article{yu2020gradient,
+author = {Yu, Tianhe and Kumar, Saurabh and Gupta, Abhishek and Levine, Sergey and Hausman, Karol and Finn, Chelsea},
+journal = {arXiv preprint arXiv:2001.06782},
+title = {{Gradient surgery for multi-task learning}},
+year = {2020}
+}
+@inproceedings{ren2019likelihood,
+author = {Ren, Jie and Liu, Peter J and Fertig, Emily and Snoek, Jasper and Poplin, Ryan and Depristo, Mark and Dillon, Joshua and Lakshminarayanan, Balaji},
+booktitle = {Advances in Neural Information Processing Systems},
+editor = {Wallach, H and Larochelle, H and Beygelzimer, A and d\textquotesingle Alch{\'{e}}-Buc, F and Fox, E and Garnett, R},
+publisher = {Curran Associates, Inc.},
+title = {{Likelihood Ratios for Out-of-Distribution Detection}},
+url = {https://proceedings.neurips.cc/paper/2019/file/1e79596878b2320cac26dd792a6c51c9-Paper.pdf},
+volume = {32},
+year = {2019}
+}
+@article{verma2020counterfactual,
+abstract = {Machine learning plays a role in many deployed decision systems, often in ways that are difficult or impossible to understand by human stakeholders. Explaining, in a human-understandable way, the relationship between the input and output of machine learning models is essential to the development of trustworthy machine-learning-based systems. A burgeoning body of research seeks to define the goals and methods of explainability in machine learning. In this paper, we seek to review and categorize research on counterfactual explanations, a specific class of explanation that provides a link between what could have happened had input to a model been changed in a particular way. Modern approaches to counterfactual explainability in machine learning draw connections to the established legal doctrine in many countries, making them appealing to fielded systems in high-impact areas such as finance and healthcare. Thus, we design a rubric with desirable properties of counterfactual explanation algorithms and comprehensively evaluate all currently-proposed algorithms against that rubric. Our rubric provides easy comparison and comprehension of the advantages and disadvantages of different approaches and serves as an introduction to major research themes in this field. We also identify gaps and discuss promising research directions in the space of counterfactual explainability.},
+archivePrefix = {arXiv},
+arxivId = {2010.10596},
+author = {Verma, Sahil and Ai, Arthur and Dickerson, John and Hines, Keegan},
+eprint = {2010.10596},
+file = {:home/ihowell/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Verma et al. - 2020 - Counterfactual Explanations for Machine Learning A Review.pdf:pdf},
+month = {oct},
+title = {{Counterfactual Explanations for Machine Learning: A Review}},
+url = {https://arxiv.org/abs/2010.10596v1},
+year = {2020}
+}
+@inproceedings{goodfellow2015explaining,
+abstract = {Several machine learning models, including neural networks, consistently misclassify adversarial examples—inputs formed by applying small but intentionally worst-case perturbations to examples from the dataset, such that the perturbed input results in the model outputting an incorrect answer with high confidence. Early attempts at explaining this phenomenon focused on nonlinearity and overfitting. We argue instead that the primary cause of neural networks' vulnerability to adversarial perturbation is their linear nature. This explanation is supported by new quantitative results while giving the first explanation of the most intriguing fact about them: their generalization across architectures and training sets. Moreover, this view yields a simple and fast method of generating adversarial examples. Using this approach to provide examples for adversarial training, we reduce the test set error of a maxout network on the MNIST dataset.},
+archivePrefix = {arXiv},
+arxivId = {1412.6572},
+author = {Goodfellow, Ian J. and Shlens, Jonathon and Szegedy, Christian},
+booktitle = {3rd International Conference on Learning Representations, ICLR 2015 - Conference Track Proceedings},
+eprint = {1412.6572},
+publisher = {International Conference on Learning Representations, ICLR},
+title = {{Explaining and harnessing adversarial examples}},
+year = {2015}
+}
