@@ -15,7 +15,7 @@ verma2020counterfactual -A %}.
 
 # What is contrastive explanation?
 
-If I were to ask you, why the upper left image is of a five, what
+If I were to ask you why the image below is of a five, what
 would you say? How would you explain why this image contains a five?
 
 ![MNIST Digits](/assets/img/mnist_5.png){: width="300"}
