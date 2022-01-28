@@ -72,7 +72,7 @@ In the above example, each of the actions that Alice can take, either
 getting a raise of $10,000 or staying at her job for another year, may
 be more or less doable for her. If Alice is currently making $200,000
 per year, it would be easier for her to get a raise of $10,000 than if
-she were making $20,000 per year. Further some explanations (albeit
+she were making $20,000 per year. Further, some explanations (albeit
 illegal ones) may even ask that she change her race or gender. These
 would clearly be in-actionable for Alice. Good contrastive examples
 provide feasible paths to changing the situation, while better ones
@@ -102,20 +102,20 @@ explanation and start to use an automated system.
 Suppose now the banker has gotten tired of accepting and rejecting all
 of these loan applications and wants to automate the process. They
 decide to build an automated system and use their past accepted and
-rejected applications in the training process. To train the system,
-the banker splits the applications into two sets, a set used to train
-the system composed of 90% of the applications and a set used to
-evaluate the system once training is completed composed of the
-remaining 10%. After training, the system performs relatively well on
-the test set with 99% accuracy.
+rejected applications in the training process.  The banker uses 90% of
+their previous applications to train the system and the remaining 10%
+of their previous applications to evaluate it.  After training, the
+system performs relatively well on the test set with 99% accuracy.
 
 Now comes the problem. Suppose Alice is in a peculiar financial
 situation, such that none of the data in the training set comes close
 to her situation. How can we expect the system to correctly decide if
-her loan should be accepted? We can't. In the same way, if a
-contrastive explanation would result in features outside of the scope
-of the training data, then we can't really know whether the
-contrastive example is itself valid.
+her loan should be accepted? Simply put, we can't without knowing more
+about the system, especially because machine learning models
+inherently do not extrapolate well. In the same way, if a contrastive
+explanation would result in features outside of the scope of the
+training data, then we can't really know whether the contrastive
+example is itself valid.
 
 ## 5. Causality
 
